@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="logo.ico" type="image/x-icon" />
+    <title>Vídeos em HTML5</title>
+  </head>
+  <body>
+    <h1>Vídeos em HTML5</h1>
+    <br />
+    <h2>Vídeos Hospedados Localmente</h2>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+    <video
+      width="560"
+      height="315"
+      poster="imagens/thumbnail.png"
+      controls
+      loop
+      autoplay
+    >
+      <source src="midias/mar-aesthetic-mkv.mkv" type="video/mp4" />
+      <source src="midias/mar-aesthetic-720.mp4" type="video/mp4" />
+      <source src="midias/mar-aesthetic-web.webm" type="video/mp4" />
+      <source src="midias/mar-aesthetic-ogv.ogv" type="video/mp4" />
+      Seu navegador não suporta o elemento de vídeo.
+    </video>
+    <br /><br />
+    <h2>Vídeos Incorporados do YouTube</h2>
+    <p>Este vídeo está hospedado no YouTube.</p>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/3hng-hmSv2Y?si=S4AbA1EoxxTsnVny"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+    <br /><br />
+    <h2>Vídeos Incorporados do Vimeo</h2>
+    <p>Este vídeo está hospedado no Vimeo.</p>
+    <iframe
+      src="https://player.vimeo.com/video/76979871?h=8272103f6e&title=0&byline=0&portrait=0"
+      width="560"
+      height="315"
+      frameborder="0"
+      allow="autoplay; fullscreen; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe>
+    <script src="https://player.vimeo.com/api/player.js"></script>
+    <br />><br />
+    <footer>
+      <p>Desenvolvido por Daniel Andrade &copy; 2025</p>
+    </footer>
+  </body>
+</html>

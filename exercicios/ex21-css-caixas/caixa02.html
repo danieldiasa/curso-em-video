@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="logo.ico" type="image/x-icon" />
+    <title>Grouping Tags</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 20px;
+        background-color: #f4f4f4;
+      }
+      header {
+        background: #50b3a2;
+        color: #fff;
+        padding: 10px 0;
+        text-align: center;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      nav ul {
+        list-style: none;
+        padding: 0;
+      }
+
+      nav ul li {
+        display: inline;
+        margin: 0 10px;
+      }
+
+      nav ul li a {
+        color: #ffffff96;
+        text-decoration: none;
+      }
+
+      nav ul li a:hover {
+        text-decoration: underline;
+      }
+
+      nav ul li a:active {
+        color: #fff;
+      }
+
+      main {
+        background: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      footer {
+        text-align: center;
+        margin-top: 20px;
+        padding: 10px 0;
+        background: #50b3a2;
+        color: #fff;
+      }
+      footer > p {
+        margin: 0;
+      }
+      div {
+        margin-bottom: 20px;
+      }
+      span {
+        background-color: yellow;
+        padding: 2px 4px;
+      }
+      section,
+      article,
+      aside {
+        margin-bottom: 20px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+      article > aside {
+        background-color: #f9f9f9;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Grouping Tags</h1>
+      <p>
+        Tags de agrupamento são usadas para agrupar outros elementos HTML.
+        Exemplos comuns incluem &lt;div&gt; e &lt;span&gt;. Essas tags não têm
+        um significado semântico específico, mas são úteis para aplicar estilos
+        CSS ou manipular elementos com JavaScript.
+      </p>
+      <nav>
+        <ul>
+          <li><a href="caixa01.html">Caixas Box-Level e Inline</a></li>
+          <li><a href="caixa02.html">Grouping Tags</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div style="border: 2px solid blue; padding: 10px; margin-bottom: 20px">
+        <h2>Exemplo de &lt;div&gt;</h2>
+        <p>
+          Este é um exemplo de uma tag &lt;div&gt; que agrupa um título e um
+          parágrafo. A borda azul envolve ambos os elementos.
+        </p>
+      </div>
+
+      <p>
+        Aqui está um exemplo de uso da tag
+        <span>&lt;span&gt;</span>
+        para destacar uma parte do texto dentro deste parágrafo.
+      </p>
+      <section>
+        <h2>Exemplo de &lt;section&gt;</h2>
+        <p>
+          A tag &lt;section&gt; é usada para definir seções temáticas em um
+          documento. Ela pode conter cabeçalhos, parágrafos e outros elementos
+          relacionados a um tema específico.
+        </p>
+      </section>
+      <article>
+        <h2>Exemplo de &lt;article&gt;</h2>
+        <p>
+          A tag &lt;article&gt; é usada para representar uma composição
+          independente em um documento, como uma postagem de blog ou uma
+          notícia. Ela pode conter títulos, parágrafos, imagens e outros
+          elementos.
+        </p>
+        <aside>
+          <h3>Exemplo de &lt;aside&gt;</h3>
+          <p>
+            A tag &lt;aside&gt; é usada para representar conteúdo relacionado
+            que é tangencialmente conectado ao conteúdo principal. Pode ser
+            usado para barras laterais, citações ou informações adicionais.
+          </p>
+        </aside>
+      </article>
+    </main>
+    <footer>
+      <p>&copy; 2025 Curso de HTML e CSS</p>
+    </footer>
+  </body>
+</html>

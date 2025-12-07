@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="logo.ico" type="image/x-icon" />
+    <title>Mídias em HTML5</title>
+  </head>
+  <body>
+    <h1>Mídias em HTML5</h1>
+    <br />
+    <h2>Imagem Dinâmica - Responsividade</h2>
+    <p>
+      Tente abrir esse site em dispositivos diferentes ou regule o tamanho no
+      seu navegador.
+    </p>
+    <picture>
+      <source
+        media="(max-width: 500px)"
+        srcset="Imagens/foto-p.png"
+        type="image/png"
+      />
+      <source
+        media="(max-width: 1050px)"
+        srcset="Imagens/foto-m.png"
+        type="image/png"
+      />
+      <img src="Imagens/foto-g.png" alt="Imagem Flexível" />
+    </picture>
+    <br />
+    <h2>Áudio em HTML5</h2>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <audio autoplay controls>
+      <source src="midia/misdirection.mp3" type="audio/mpeg" />
+      <source src="midia/misdirection.ogg" type="audio/ogg" />
+      <source src="midia/misdirection.wav" type="audio/wav" />
+    </audio>
+    <p>Seu navegador não suporta o elemento de áudio.</p>
+    <a href="midia/misdirection.mp3">Clique aqui para baixar o arquivo mp3.</a>
+    <br />
+    <br />
+  </body>
+</html>

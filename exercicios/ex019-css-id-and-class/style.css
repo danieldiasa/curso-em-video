@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+/* 
+ID = # 
+Class = .
+Element = element
+*/
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #eff1c5;
+}
+h1 {
+  color: #002e2c;
+}
+
+#main {
+  color: #d64045;
+  background-color: #e3e7af;
+  text-align: center;
+}
+
+h2 {
+  color: #035e7b;
+}
+
+.basico {
+  color: #855d64;
+}
+
+.intermediario {
+  color: #13708a;
+}
+
+.avancado {
+  color: #b23a48;
+}
+
+.destaque {
+  font-weight: bold;
+  color: #b23a48;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="logo.ico" type="image/x-icon" />
+    <title>Personalizando Links</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+        background-color: #e0e0e0;
+      }
+      a:link {
+        color: blue;
+        text-decoration: none;
+      }
+      a:visited {
+        color: purple;
+      }
+      a:hover {
+        color: red;
+        text-decoration: underline;
+      }
+      a:active {
+        color: orange;
+      }
+      a::after {
+        content: " (link externo)";
+        font-size: 0.8em;
+        color: gray;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Personalizando Links</h1>
+    <ul>
+      <li>
+        <a href="https://github.com/danamnesia" target="_blank"
+          >Repositório GitHub</a
+        >
+      </li>
+      <li>
+        <a href="https://www.youtube.com/@danielandrade1728"
+          >Canal do Youtube</a
+        >
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/daniel-andrade-dias/"
+          >Perfil do LinkedIn</a
+        >
+      </li>
+    </ul>
+  </body>
+</html>

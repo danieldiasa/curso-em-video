@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="logo.ico" type="image/x-icon" />
+    <title>Cores em CSS</title>
+
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      li {
+        margin: 5px 0;
+        padding: 4px 8px;
+        width: fit-content;
+        border-radius: 4px;
+        color: #000;
+      }
+
+      /* cores por nome */
+      .red {
+        background: red;
+      }
+      .blue {
+        background: blue;
+        color: white;
+      }
+      .green {
+        background: green;
+        color: white;
+      }
+      .yellow {
+        background: yellow;
+      }
+      .black {
+        background: black;
+        color: white;
+      }
+      .white {
+        background: white;
+        border: 1px solid #ccc;
+      }
+
+      /* hex */
+      .hex-red {
+        background: #ff0000;
+      }
+      .hex-blue {
+        background: #0000ff;
+        color: white;
+      }
+      .hex-green {
+        background: #00ff00;
+      }
+      .hex-yellow {
+        background: #ffff00;
+      }
+      .hex-black {
+        background: #000000;
+        color: white;
+      }
+      .hex-white {
+        background: #ffffff;
+        border: 1px solid #ccc;
+      }
+
+      /* rgb */
+      .rgb-red {
+        background: rgb(255, 0, 0);
+      }
+      .rgb-blue {
+        background: rgb(0, 0, 255);
+        color: white;
+      }
+      .rgb-green {
+        background: rgb(0, 255, 0);
+      }
+      .rgb-yellow {
+        background: rgb(255, 255, 0);
+      }
+      .rgb-black {
+        background: rgb(0, 0, 0);
+        color: white;
+      }
+      .rgb-white {
+        background: rgb(255, 255, 255);
+        border: 1px solid #ccc;
+      }
+
+      /* rgba */
+      .rgba-red {
+        background: rgba(255, 0, 0, 1);
+      }
+      .rgba-blue {
+        background: rgba(0, 0, 255, 0.5);
+        color: white;
+      }
+      .rgba-green {
+        background: rgba(0, 255, 0, 0.3);
+      }
+
+      /* hsl */
+      .hsl-red {
+        background: hsl(0, 100%, 50%);
+      }
+      .hsl-blue {
+        background: hsl(240, 100%, 50%);
+        color: white;
+      }
+      .hsl-green {
+        background: hsl(120, 100%, 50%);
+      }
+
+      /* hsla */
+      .hsla-red {
+        background: hsla(0, 100%, 50%, 1);
+      }
+      .hsla-blue {
+        background: hsla(240, 100%, 50%, 0.5);
+        color: white;
+      }
+      .hsla-green {
+        background: hsla(120, 100%, 50%, 0.3);
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Cores em CSS</h1>
+    <p>
+      As cores em CSS podem ser definidas de várias maneiras, incluindo nomes de
+      cores, valores hexadecimais, RGB, RGBA, HSL e HSLA. Aqui estão alguns
+      exemplos:
+    </p>
+
+    <h2>Nomes de Cores</h2>
+    <ul>
+      <li class="red">red</li>
+      <li class="blue">blue</li>
+      <li class="green">green</li>
+      <li class="yellow">yellow</li>
+      <li class="black">black</li>
+      <li class="white">white</li>
+    </ul>
+
+    <h2>Valores Hexadecimais</h2>
+    <ul>
+      <li class="hex-red">#FF0000 (vermelho)</li>
+      <li class="hex-blue">#0000FF (azul)</li>
+      <li class="hex-green">#00FF00 (verde)</li>
+      <li class="hex-yellow">#FFFF00 (amarelo)</li>
+      <li class="hex-black">#000000 (preto)</li>
+      <li class="hex-white">#FFFFFF (branco)</li>
+    </ul>
+
+    <h2>Valores RGB</h2>
+    <ul>
+      <li class="rgb-red">rgb(255, 0, 0) (vermelho)</li>
+      <li class="rgb-blue">rgb(0, 0, 255) (azul)</li>
+      <li class="rgb-green">rgb(0, 255, 0) (verde)</li>
+      <li class="rgb-yellow">rgb(255, 255, 0) (amarelo)</li>
+      <li class="rgb-black">rgb(0, 0, 0) (preto)</li>
+      <li class="rgb-white">rgb(255, 255, 255) (branco)</li>
+    </ul>
+
+    <h2>Valores RGBA</h2>
+    <ul>
+      <li class="rgba-red">rgba(255, 0, 0, 1) (vermelho opaco)</li>
+      <li class="rgba-blue">rgba(0, 0, 255, 0.5) (azul semi-transparente)</li>
+      <li class="rgba-green">rgba(0, 255, 0, 0.3) (verde semi-transparente)</li>
+    </ul>
+
+    <h2>Valores HSL</h2>
+    <ul>
+      <li class="hsl-red">hsl(0, 100%, 50%) (vermelho)</li>
+      <li class="hsl-blue">hsl(240, 100%, 50%) (azul)</li>
+      <li class="hsl-green">hsl(120, 100%, 50%) (verde)</li>
+    </ul>
+
+    <h2>Valores HSLA</h2>
+    <ul>
+      <li class="hsla-red">hsla(0, 100%, 50%, 1) (vermelho opaco)</li>
+      <li class="hsla-blue">
+        hsla(240, 100%, 50%, 0.5) (azul semi-transparente)
+      </li>
+      <li class="hsla-green">
+        hsla(120, 100%, 50%, 0.3) (verde semi-transparente)
+      </li>
+    </ul>
+  </body>
+</html>

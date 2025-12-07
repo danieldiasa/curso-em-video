@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Colinha de Símbolos HTML</title>
+
+    <style>
+      body {
+        font-family: Inter, Roboto, Arial, sans-serif;
+        padding: 24px;
+        background: #f7f7fb;
+        color: #111827;
+      }
+      h1 {
+        margin-bottom: 12px;
+        font-size: 20px;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        background: #ffffff;
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+        border-radius: 8px;
+        overflow: hidden;
+      }
+      thead {
+        background: linear-gradient(90deg, #eef2ff, #f0fdf4);
+      }
+      th,
+      td {
+        padding: 10px 12px;
+        text-align: left;
+        border-bottom: 1px solid #eef1f6;
+        font-size: 14px;
+      }
+      th {
+        font-weight: 600;
+      }
+      tbody tr:hover {
+        background: #fbfdff;
+      }
+      .symbol {
+        font-size: 18px;
+        width: 72px;
+      }
+      .mono {
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, "Roboto Mono",
+          monospace;
+        font-size: 13px;
+        color: #0f172a;
+      }
+      caption {
+        text-align: left;
+        padding: 8px 0;
+        font-size: 13px;
+        color: #475569;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Colinha de Símbolos HTML</h1>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Símbolo</th>
+          <th>Descrição</th>
+          <th>Entidade (nomeada)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="symbol">&amp;</td>
+          <td>E comercial (ampersand)</td>
+          <td class="entity">&amp;amp;</td>
+        </tr>
+        <tr>
+          <td class="symbol">&lt;</td>
+          <td>Menor (abre tag)</td>
+          <td class="entity">&amp;lt;</td>
+        </tr>
+        <tr>
+          <td class="symbol">&gt;</td>
+          <td>Maior (fecha tag)</td>
+          <td class="entity">&amp;gt;</td>
+        </tr>
+        <tr>
+          <td class="symbol">©</td>
+          <td>Direitos autorais</td>
+          <td class="entity">&amp;copy;</td>
+        </tr>
+        <tr>
+          <td class="symbol">®</td>
+          <td>Marca registrada</td>
+          <td class="entity">&amp;reg;</td>
+        </tr>
+        <tr>
+          <td class="symbol">™</td>
+          <td>Trademark</td>
+          <td class="entity">&amp;trade;</td>
+        </tr>
+        <tr>
+          <td class="symbol">€</td>
+          <td>Euro</td>
+          <td class="entity">&amp;euro;</td>
+        </tr>
+        <tr>
+          <td class="symbol">£</td>
+          <td>Libra esterlina</td>
+          <td class="entity">&amp;pound;</td>
+        </tr>
+        <tr>
+          <td class="symbol">¥</td>
+          <td>Iene/Yuan</td>
+          <td class="entity">&amp;yen;</td>
+        </tr>
+        <tr>
+          <td class="symbol">¢</td>
+          <td>Centavo</td>
+          <td class="entity">&amp;cent;</td>
+        </tr>
+        <tr>
+          <td class="symbol">§</td>
+          <td>Seção</td>
+          <td class="entity">&amp;sect;</td>
+        </tr>
+        <tr>
+          <td class="symbol">¶</td>
+          <td>Parágrafo</td>
+          <td class="entity">&amp;para;</td>
+        </tr>
+        <tr>
+          <td class="symbol">•</td>
+          <td>Bullet</td>
+          <td class="entity">&amp;bull;</td>
+        </tr>
+        <tr>
+          <td class="symbol">–</td>
+          <td>En dash</td>
+          <td class="entity">&amp;ndash;</td>
+        </tr>
+        <tr>
+          <td class="symbol">—</td>
+          <td>Em dash</td>
+          <td class="entity">&amp;mdash;</td>
+        </tr>
+        <tr>
+          <td class="symbol">…</td>
+          <td>Reticências</td>
+          <td class="entity">&amp;hellip;</td>
+        </tr>
+        <tr>
+          <td class="symbol">« »</td>
+          <td>Aspas angulares</td>
+          <td class="entity">&amp;laquo; / &amp;raquo;</td>
+        </tr>
+        <tr>
+          <td class="symbol">←</td>
+          <td>Seta esquerda</td>
+          <td class="entity">&amp;larr;</td>
+        </tr>
+        <tr>
+          <td class="symbol">→</td>
+          <td>Seta direita</td>
+          <td class="entity">&amp;rarr;</td>
+        </tr>
+        <tr>
+          <td class="symbol">↑</td>
+          <td>Seta cima</td>
+          <td class="entity">&amp;uarr;</td>
+        </tr>
+        <tr>
+          <td class="symbol">↓</td>
+          <td>Seta baixo</td>
+          <td class="entity">&amp;darr;</td>
+        </tr>
+        <tr>
+          <td class="symbol">±</td>
+          <td>Mais/menos</td>
+          <td class="entity">&amp;plusmn;</td>
+        </tr>
+        <tr>
+          <td class="symbol">×</td>
+          <td>Multiplicação</td>
+          <td class="entity">&amp;times;</td>
+        </tr>
+        <tr>
+          <td class="symbol">÷</td>
+          <td>Divisão</td>
+          <td class="entity">&amp;divide;</td>
+        </tr>
+        <tr>
+          <td class="symbol">≈</td>
+          <td>Aproximadamente</td>
+          <td class="entity">&amp;asymp;</td>
+        </tr>
+        <tr>
+          <td class="symbol">≠</td>
+          <td>Diferente</td>
+          <td class="entity">&amp;ne;</td>
+        </tr>
+        <tr>
+          <td class="symbol">≤</td>
+          <td>Menor ou igual</td>
+          <td class="entity">&amp;le;</td>
+        </tr>
+        <tr>
+          <td class="symbol">≥</td>
+          <td>Maior ou igual</td>
+          <td class="entity">&amp;ge;</td>
+        </tr>
+        <tr>
+          <td class="symbol">°</td>
+          <td>Graus</td>
+          <td class="entity">&amp;deg;</td>
+        </tr>
+        <tr>
+          <td class="symbol">½</td>
+          <td>1/2</td>
+          <td class="entity">&amp;frac12;</td>
+        </tr>
+        <tr>
+          <td class="symbol">¼</td>
+          <td>1/4</td>
+          <td class="entity">&amp;frac14;</td>
+        </tr>
+        <tr>
+          <td class="symbol">¾</td>
+          <td>3/4</td>
+          <td class="entity">&amp;frac34;</td>
+        </tr>
+        <tr>
+          <td class="symbol">♥</td>
+          <td>Coração</td>
+          <td class="entity">&amp;hearts;</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

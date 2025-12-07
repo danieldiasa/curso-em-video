@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="map-icon.ico" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Imagem Flexivel</title>
+  </head>
+  <body>
+    <h1>Imagem Flexível</h1>
+    <br />
+    <p>
+      Você está vendo a imagem completa? Experiente ajustar o tamanho da tela e
+      ver como a imagem também se ajusta!
+    </p>
+    <picture>
+      <source media="(max-width: 600px)" srcset="midia/paisagem-p.png" />
+      <source media="(max-width: 1200px)" srcset="midia/paisagem-m.png" />
+      <img src="midia/paisagem-g.png" alt="Imagem Flexível" />
+    </picture>
+  </body>
+</html>
